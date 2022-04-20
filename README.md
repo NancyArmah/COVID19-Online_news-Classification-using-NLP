@@ -91,6 +91,7 @@ Five different models were trained on the data with the best model used for the 
 | XGBoost Classifier| 0.573 |
 | KNN | 0.467 |
 
+</div>
 
 # Observations & Future Improvements
   
