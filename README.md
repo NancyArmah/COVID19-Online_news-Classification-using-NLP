@@ -33,7 +33,7 @@ PS: Plotly graph is not showing in the main notebook so including them here
 
 <div align="center">
   
-<img src="https://github.com/NancyArmah/COVID19-Online_news-Classification-using-NLP/blob/main/Linegraph.png" width="400">
+<img src="https://github.com/NancyArmah/COVID19-Online_news-Classification-using-NLP/blob/main/Linegraph.png">
     
 </div>
 
