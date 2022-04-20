@@ -113,9 +113,9 @@ Five different models were trained on the data with the best model used for the 
 
 </div>
 
-# News Classifier Deployment
+## News Classifier Deployment
 
-
+Classifier deployed using flask
 
 # Observations & Future Improvements
   
