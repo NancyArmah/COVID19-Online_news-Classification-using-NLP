@@ -1,4 +1,4 @@
-## How have reporting on topics surrounding covid changed in 2022 as compared to 2021?
+# How have reporting on topics surrounding covid changed in 2022 as compared to 2021?
 
 <div align="center">
   
@@ -56,15 +56,42 @@ This was done to visualize the most important words in the data.Tags are usually
   
 </div>
 
+## Tokenization
+
+Next was to tokenize to split the texts into smaller units, so the meaning of the text could easily be interpreted by analyzing the words present in the text. Before processing a natural language, we need to identify the words that constitute a string of characters. 
+
 ## Lemmarization
 
-The preprocessing step continued with 
+The preprocessing step continued with lemmatization whcih brings a shorter word or base word. The advantage of this is, we get to reduce the total number of unique words in the dictionary. As a result, the number of columns in the document-word matrix created by TfidfVectorizer will be denser with lesser columns.
 
+## Vectorization
 
+Finally, converting the text into vectors (meaningful representation of numbers) with a vectorizer, as our model can only deal with numbers, not alphabets. First, as with any machine learning task, we split our data into 2 groups of rows, the train and test sets using the train_test_split() function before vectorizing it.
 
+Then we we use a TfidfVectorizer. Basically when this vectorizer is fitted on our data, it takes note of all terms/vocabulary (i.e. all the words and phrases involved) present in the text that we give it. An ngram_range of (1,2) was used so that we are no longer treating a single word, but double words frequently occurring together in the document.
 
+The tfidf_vectorizer was fitted on only the training data to note all the terms involved, we then transform the training data into vectors which account for the frequency of this terms. This is done by the fit_transform() function. We then use the same model to transform the test data into vectors.
 
-It’s time to train a machine learning model on the vectorized dataset and test it. Now that we have converted the text data to numerical data, we can run ML models on X_train_vector_tfidf & y_train. We’ll test this model on X_test_vectors_tfidf to get y_predict and further evaluate the performance of the model
+We do NOT fit it on the test data as the test data is meant to simulate user input of text for cateogry prediction.
+
+# Modelling
+
+Now that we have converted the text data to numerical data, we can run ML models on X_train_vector_tfidf & y_train. We’ll test this model on X_test_vectors_tfidf to get y_predict and further evaluate the performance of the model. 
+
+Five different models were trained on the data with the best model used for the dashboard.
+
+<div align="center">
+  
+| Model | Accuracy Score |
+|---|---|
+| SVC|  |
+| Logistic Regression | |
+| DecisionTree Classifier| |
+| XGBoost Classifier| |
+| KNN | |
+
+  
+</div>
 
 Logistic Regression
 Naive Bayes: It’s a probabilistic classifier that makes use of Bayes’ Theorem, a rule that uses probability to make predictions based on prior knowledge of conditions that might be related
