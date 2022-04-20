@@ -1,4 +1,6 @@
-# How have reporting on topics surrounding covid changed in 2022 as compared to 2021?
+# COVID19 Online News Classification using NLP
+
+## Gdelt Data Analysis - How have reporting on topics surrounding covid changed in 2022 as compared to 2021?
 
 <div align="center">
   
@@ -60,7 +62,7 @@ This was done to visualize the most important words in the data.Tags are usually
 
 Next was to tokenize to split the texts into smaller units, so the meaning of the text could easily be interpreted by analyzing the words present in the text. Before processing a natural language, we need to identify the words that constitute a string of characters. 
 
-## Lemmarization
+## Lemmatization
 
 The preprocessing step continued with lemmatization whcih brings a shorter word or base word. The advantage of this is, we get to reduce the total number of unique words in the dictionary. As a result, the number of columns in the document-word matrix created by TfidfVectorizer will be denser with lesser columns.
 
