@@ -7,7 +7,7 @@
 | File | Description |
 |---|---|
 | [Main Notebook](https://github.com/SitwalaM/nlp-topic-modelling/blob/main/Topic_Modelling_Final_TeamB.ipynb) | Main Notebook submitted for Twist Challenge  |
-| [Data Extraction Notebook](https://github.com/SitwalaM/nlp-topic-modelling/blob/main/scripts/nlp_dag.py) | Kaggle Notebook used for Data Extraction |
+| [Data Extraction Notebook](https://github.com/NancyArmah/COVID19-Online_news-Classification-using-NLP/blob/main/gdelt.ipynb) | Kaggle Notebook used for Data Extraction |
   
 </div>
 
