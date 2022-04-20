@@ -54,7 +54,7 @@ This was done to visualize the most important words in the data.Tags are usually
 
 <div align="center">
   
-<img src=....width="400">
+<img src="https://github.com/NancyArmah/COVID19-Online_news-Classification-using-NLP/blob/main/wordcloud.png" width="400">
   
 </div>
 
