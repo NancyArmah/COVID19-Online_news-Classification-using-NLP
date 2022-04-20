@@ -91,7 +91,8 @@ Five different models were trained on the data with the best model used for the 
 | XGBoost Classifier| 0.573 |
 | KNN | 0.467 |
 
- # Observations & Future Improvements
+
+# Observations & Future Improvements
   
 This notebook demonstrats the basics of building a text classification model. 
 
