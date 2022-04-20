@@ -30,7 +30,7 @@ The use of line graph, bar graph and pie chart was used on the raw data to visua
 
 <div align="center">
   
-<img src=....width="400">
+<img src="https://github.com/NancyArmah/COVID19-Online_news-Classification-using-NLP/blob/main/Linegraph.png" width="400">
   
 </div>
 
