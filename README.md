@@ -27,11 +27,15 @@ As I earlier stated in my introduction, the data had to be limited to just one m
 
 The use of line graph, bar graph and pie chart was used on the raw data to visualize the change in reporting on covid related topics for 2021 and 2022. The output of the visualizations did prove the fact that reporting on covid related topics indeed reduced in January 2022 which could be as a result of the roll out of vaccines in 2020 hence less reported cases and deaths.
 
+PS: Plotly graph is not showing in the main notebook so including them here
+
 <div align="center">
   
-<img src="https://github.com/NancyArmah/COVID19-Online_news-Classification-using-NLP/blob/main/Linegraph.png">
+<img src="https://github.com/NancyArmah/COVID19-Online_news-Classification-using-NLP/blob/main/Linegraph.png" width="400">
   
-<img src="https://github.com/NancyArmah/COVID19-Online_news-Classification-using-NLP/blob/main/Bargraph.png">
+<img src="https://github.com/NancyArmah/COVID19-Online_news-Classification-using-NLP/blob/main/Bargraph.png" width="400">
+  
+<img src=" https://github.com/NancyArmah/COVID19-Online_news-Classification-using-NLP/blob/main/piechart.png" width="400">
 
   
 </div>
