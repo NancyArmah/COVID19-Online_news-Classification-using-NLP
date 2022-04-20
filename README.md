@@ -1,6 +1,6 @@
 # COVID19 Online News Classification using NLP
 
-## Gdelt Data Analysis - How have reporting on topics surrounding covid changed in 2022 as compared to 2021?
+## Gdelt Data Analysis - How has reporting on topics surrounding covid changed in 2022 as compared to 2021?
 
 <div align="center">
   
@@ -30,6 +30,9 @@ The use of line graph, bar graph and pie chart was used on the raw data to visua
 <div align="center">
   
 <img src="https://github.com/NancyArmah/COVID19-Online_news-Classification-using-NLP/blob/main/Linegraph.png">
+  
+<img src="https://github.com/NancyArmah/COVID19-Online_news-Classification-using-NLP/blob/main/Bargraph.png">
+
   
 </div>
 
