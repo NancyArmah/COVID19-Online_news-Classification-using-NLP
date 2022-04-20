@@ -1,5 +1,16 @@
 ## How have reporting on topics surrounding covid changed in 2022 as compared to 2021?
 
+<div align="center">
+  
+| File | Description |
+|---|---|
+| [Main Notebook](https://github.com/SitwalaM/nlp-topic-modelling/blob/main/Topic_Modelling_Final_TeamB.ipynb) | Main Notebook submitted for DSI Assignment  |
+| [Airflow DAG File](https://github.com/SitwalaM/nlp-topic-modelling/blob/main/scripts/nlp_dag.py) | Main pipeline scripts |
+|  [Requirements](https://github.com/SitwalaM/nlp-topic-modelling/blob/develop/requirements.txt)| Dependencies for deployment on EC2 |
+  |[Dashboard](https://public.tableau.com/views/Tanamadosi1/Dashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)|Tableau Public Dashboard|
+  
+</div>
+
 As global cases of COVID19 began to rise from Dec 2019, we witnessed an increase in news reporting on COVID19 related topics (such as panic, shortage, testing, quarantine etc) globally on a daily basis. Every news agency be it TV or Online had something to report, mostly negative. If 2020 was dominated by the news of how COVID-19 spread across the globe, then 2021 has so far been focused on ending the pandemic through vaccine distribution. As vacciness began to roll out and the rate of deaths reducing significantly, the rate of reporting began to decrease and media focus was shifted to new topics.
 
 This project is to compare how reporting on topics surrounding covid has changed between 2021 and 2022. The initial plan was to compare the first quarter of 2021 and 2022 but given the size of the data, it had to be limited to the months of January only. After which a classification model will be built using NLP on the data from January 2022.
