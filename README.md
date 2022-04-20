@@ -8,13 +8,12 @@
 |---|---|
 | [Main Notebook](https://github.com/SitwalaM/nlp-topic-modelling/blob/main/Topic_Modelling_Final_TeamB.ipynb) | Main Notebook submitted for Twist Challenge  |
 | [Data Extraction Notebook](https://github.com/SitwalaM/nlp-topic-modelling/blob/main/scripts/nlp_dag.py) | Kaggle Notebook used for Data Extraction |
-|[Dashboard](https://public.tableau.com/views/Tanamadosi1/Dashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)| Dashboard using Flask|
   
 </div>
 
 As global cases of COVID19 began to rise from Dec 2019, we witnessed an increase in news reporting on COVID19 related topics (such as panic, shortage, testing, quarantine etc) globally on a daily basis. Every news agency be it TV or Online had something to report, mostly negative. If 2020 was dominated by the news of how COVID-19 spread across the globe, then 2021 has so far been focused on ending the pandemic through vaccine distribution. As vacciness began to roll out and the rate of deaths reducing significantly, the rate of reporting began to decrease and media focus was shifted to new topics.
 
-This project is to compare how reporting on topics surrounding covid has changed between 2021 and 2022. The initial plan was to compare the first quarter of 2021 and 2022 but given the size of the data, it had to be limited to the months of January only. After which i will train a news category classifier with the data using NLP on the data from January 2022 and deploy it using flask.
+This project is to compare how reporting on topics surrounding covid has changed between 2021 and 2022. The initial plan was to compare the first quarter of 2021 and 2022 but given the size of the data, it had to be limited to the months of January only. After which i will train a news category classifier with the data using NLP on the data from January 2022.
 
 # Data
 
@@ -86,21 +85,19 @@ Five different models were trained on the data with the best model used for the 
   
 | Model | Accuracy Score |
 |---|---|
-| SVC|  |
-| Logistic Regression | |
-| DecisionTree Classifier| |
-| XGBoost Classifier| |
-| KNN | |
+| SVC| 0.459 |
+| Logistic Regression | 0.567 |
+| DecisionTree Classifier| 0.5795 |
+| XGBoost Classifier| 0.573 |
+| KNN | 0.467 |
 
+ # Observations & Future Improvements
   
-</div>
+This notebook demonstrats the basics of building a text classification model. 
 
-Logistic Regression
-Naive Bayes: It’s a probabilistic classifier that makes use of Bayes’ Theorem, a rule that uses probability to make predictions based on prior knowledge of conditions that might be related
-In this article, I demonstrated the basics of building a text classification model comparing Bag-of-Words (with Tf-Idf) and Word Embedding with Word2Vec. You can further enhance the performance of your model using this code by
+For future improvements;
 
-using other classification algorithms like Support Vector Machines (SVM), XgBoost, Ensemble models, Neural networks etc.
-using Gridsearch to tune the hyperparameters of your model
-using advanced word-embedding methods like GloVe and BERT
+I observed from the data that all predictions are biased towards covid19 which is understandable because it is the largest topic in the dataset. The data is imbalanced, to improve this either an oversampling or undersampling technique can be used on the data to balance it and improve the results.
 
+Also, using Gridsearch to fine tune the best selected model.
 
