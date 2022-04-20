@@ -21,3 +21,9 @@ The data was extracted from the gdelt public data available on Google big query 
 This data reflects news reported online. The notebook used has been uploaded in GitHub.
 
 As I earlier stated in my introduction, the data had to be limited to just one month of each year due to the download size.
+
+# EDA
+
+The use of line graph, bar graph and pie chart was used on the raw data to visualize the change in reporting on covid related topics for 2021 and 2022. The output of the visualizations did prove the fact that reporting on covid related topics indeed reduced in January 2022 which could be as a result of the roll out of vaccines in 2020 hence less reported cases and deaths.
+
+
