@@ -115,7 +115,7 @@ Five different models were trained on the data with the best model used for the 
 
 ## News Classifier Deployment
 
-Classifier deployed using flask 
+Classifier deployed using flask and deployed on heroku [Covid19-news-classifier](https://covid19-news-classifier.herokuapp.com/)
 
 # Observations & Future Improvements
   
