@@ -115,7 +115,7 @@ Five different models were trained on the data with the best model used for the 
 
 ## News Classifier Deployment
 
-Classifier deployed using flask : [Flask](http://127.0.0.1:5000/)
+Classifier deployed using flask 
 
 # Observations & Future Improvements
   
